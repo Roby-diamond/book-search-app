@@ -8,6 +8,7 @@ body{
     grid-template-rows: repeat(2, .25fr) 1fr;
     background-color: dodgerblue;
     color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 h1{
@@ -24,7 +25,6 @@ form{
 
 div{
     grid-area: 3 / 2 / 4 / 3;
-    align-items: center;
     text-align: center;
 }
 
@@ -35,4 +35,19 @@ div{
     border-radius: 3px;
     height: 30px;
     font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+@media only screen and (min-width:1200px){
+    #image{
+        display: flex;
+        justify-content: flex-end;
+        outline: 1px dashed red;
+    }
 }
