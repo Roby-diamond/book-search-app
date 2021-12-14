@@ -22,18 +22,17 @@ function bookSearch(evt) {
     )};
 
     function display(data){
-        // for (let i = 0; i < data.items.length; i++){
             let $bookInfo = data.items[0];
         $('div').html(`
-        <div>
-            <h2>Title: ${$bookInfo.volumeInfo.title}</h2>
-            <h2>Author: ${$bookInfo.volumeInfo.authors}</h2>
-            <h3>Published: ${$bookInfo.volumeInfo.publishedDate}</h3>
+        <div class id="results">
+            <h2>${$bookInfo.volumeInfo.title}</h2>
+            <h3>${$bookInfo.volumeInfo.authors}</h3>
+            <p>Published: ${$bookInfo.volumeInfo.publishedDate}</p>
+            <p id ="description">${$bookInfo.volumeInfo.description}</p>
+            <p id ="image"><img src="${$bookInfo.volumeInfo.imageLinks.thumbnail}"</p>
         </div>`)
         console.log($bookInfo.volumeInfo);
     }
-
-// }
 
 
 
