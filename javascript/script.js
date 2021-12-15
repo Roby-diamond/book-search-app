@@ -29,13 +29,13 @@ $(function () {
         let $isbn = $bookInfo.volumeInfo.industryIdentifiers[1].identifier
         console.log($isbn);
         $('div').html(`
-        <main class ="results">
-        <p><img src="https://covers.openlibrary.org/b/isbn/${$isbn}-L.jpg" /></p>
+        <main>
+            <img src="https://covers.openlibrary.org/b/isbn/${$isbn}-L.jpg" />    
             <h2>${$bookInfo.volumeInfo.title}</h2>
             <h3>${$bookInfo.volumeInfo.authors}</h3>
             <p>Published: ${$bookInfo.volumeInfo.publishedDate}</p>
-            <p id ="description">${$bookInfo.volumeInfo.description}</p>
-            <p> <a href="${$bookInfo.volumeInfo.infoLink}" target ="#">More info</a></p>
+            <p>${$bookInfo.volumeInfo.description}</p>
+            <p><a href="${$bookInfo.volumeInfo.infoLink}" target ="#">More info</a></p>
         </main>`)
         
         

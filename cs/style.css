@@ -3,28 +3,23 @@
   }
 
 body{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, .25fr) 1fr;
     background-color: dodgerblue;
     color: white;
     font-family: 'Oswald', sans-serif;
 }
 
 h1{
-    grid-area: 1 / 1 / 2 / 4;
     align-items: center;
     text-align: center;
 }
 
 form{
-    grid-area: 2 / 2 / 3 / 3;
     text-align: center;
     align-items: center;
+    margin-bottom: 2em;
 }
 
 div{
-    grid-area: 3 / 2 / 4 / 3;
     text-align: center;
 }
 
@@ -45,9 +40,5 @@ a{
 
 
 @media only screen and (min-width:1200px){
-    #image{
-        display: flex;
-        justify-content: flex-end;
-        outline: 1px dashed red;
-    }
+    
 }
