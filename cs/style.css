@@ -4,7 +4,7 @@
 
 body{
     background-color: dodgerblue;
-    color: white;
+    color: black;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -34,11 +34,6 @@ div{
 
 a{
     text-decoration: none;
-    color: white;
+    color: dodgerblue;
 }
 
-
-
-@media only screen and (min-width:1200px){
-    
-}
