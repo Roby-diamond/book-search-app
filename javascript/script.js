@@ -27,7 +27,7 @@ $(function () {
         let $bookInfo = data.items[0];
         console.log($bookInfo);
         let $isbn = $bookInfo.volumeInfo.industryIdentifiers[1].identifier
-        console.log($isbn);
+        // console.log($isbn);
         $('div').modal().html(`
         <div>
             <img src="https://covers.openlibrary.org/b/isbn/${$isbn}-L.jpg" />    

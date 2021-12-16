@@ -6,17 +6,11 @@ body{
     background-color: dodgerblue;
     color: black;
     font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
 
 h1{
-    align-items: center;
-    text-align: center;
-}
-
-form{
-    text-align: center;
-    align-items: center;
-    margin-bottom: 2em;
+    color: white;
 }
 
 div{
@@ -37,3 +31,7 @@ a{
     color: dodgerblue;
 }
 
+img{
+    max-width: 100%;
+    justify-content: center;
+}
