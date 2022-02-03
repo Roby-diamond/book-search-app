@@ -9,9 +9,8 @@ A book search app that uses both the Google Books and OpenLibrary APIs
 * JavaScript
 * jQuery
 * jQuery Modal
-* Google Fonts
 * Google Books API
-* OpebLibrary API
+* OpenLibrary API
 
 ## Screenshots
 
